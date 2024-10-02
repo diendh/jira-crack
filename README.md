@@ -27,7 +27,7 @@ after that switch to postgre user to make some changes to the database
 download jira software version from this link and install it
 
 ```
-wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-9.12.13-x64.bin
+wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-9.6.0-x64.bin
 chmod a+x atlassian-jira-software-x.x.x-x64.bin
 sudo ./atlassian-jira-software-x.x.x-x64.bin
 ```
