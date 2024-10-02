@@ -24,10 +24,10 @@ after that switch to postgre user to make some changes to the database
  logout
 ```
 
-download jira software version 8.19.1 from this link and install it
+download jira software version from this link and install it
 
 ```
-wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-8.19.1-x64.bin
+wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-9.12.13-x64.bin
 chmod a+x atlassian-jira-software-x.x.x-x64.bin
 sudo ./atlassian-jira-software-x.x.x-x64.bin
 ```
@@ -43,7 +43,7 @@ now we need to download a file and replace it inside jira config directory.
 rm -f /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/atlassian-extras-3.4.6.jar
 cd /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/
 ```
-then download this jar file [atlassian-extras-3.4.6.jar](https://github.com/guywiththecrack/jira-crack/blob/master/atlassian-extras-9.12.13.jar) and restart jira 
+then download this jar file [atlassian-extras-3.4.6.jar](https://github.com/guywiththecrack/jira-crack/blob/master/atlassian-extras-3.4.6.jar) and restart jira 
 ```
 . /opt/atlassian/jira/bin/start-jira.sh
 . /opt/atlassian/jira/bin/stop-jira.sh
