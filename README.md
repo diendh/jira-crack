@@ -14,7 +14,8 @@ install and start postgresql with these commands.
 
 after that switch to postgre user to make some changes to the database
 
-``` sudo su - postgres
+```
+ sudo su - postgres
  psql
  postgres=# CREATE USER jiradbadmin WITH PASSWORD 'password';
  postgres=# CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;
@@ -42,7 +43,7 @@ now we need to download a file and replace it inside jira config directory.
 rm -f /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/atlassian-extras-3.4.6.jar
 cd /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/
 ```
-then download this jar file [atlassian-extras-3.4.6.jar](https://github.com/guywiththecrack/jira-crack/blob/master/atlassian-extras-3.4.6.jar) and restart jira 
+then download this jar file [atlassian-extras-3.4.6.jar](https://github.com/guywiththecrack/jira-crack/blob/master/atlassian-extras-9.12.13.jar) and restart jira 
 ```
 . /opt/atlassian/jira/bin/start-jira.sh
 . /opt/atlassian/jira/bin/stop-jira.sh
