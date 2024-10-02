@@ -45,6 +45,9 @@ cd /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/
 ```
 then download this jar file [atlassian-extras-3.4.6.jar](https://github.com/guywiththecrack/jira-crack/blob/master/atlassian-extras-3.4.6.jar) and restart jira 
 ```
+
+/etc/init.d/jira start
+
 . /opt/atlassian/jira/bin/start-jira.sh
 . /opt/atlassian/jira/bin/stop-jira.sh
 . /opt/atlassian/jira/bin/start-jira.sh
